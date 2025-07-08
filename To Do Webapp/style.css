@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to bottom, #034f6d, #00394d);
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 40px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  width: 320px;
+}
+
+h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #00b74a;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section h3 {
+  color: white;
+  margin: 0;
+}
+
+.task {
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.task .text {
+  max-width: 75%;
+}
+
+.task .text strong {
+  display: block;
+  font-size: 16px;
+}
+
+.task .text span {
+  font-size: 14px;
+  color: #555;
+}
+
+.task .actions {
+  display: flex;
+  gap: 10px;
+}
+
+.task .actions button {
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+.checkmark {
+  background-color: #0f0;
+  border-radius: 50%;
+  color: #fff;
+  padding: 6px 10px;
+  font-weight: bold;
+  border: none;
+}
+
+.delete {
+  background-color: #e74c3c;
+}
+
+.edit {
+  background-color: #3498db;
+}
